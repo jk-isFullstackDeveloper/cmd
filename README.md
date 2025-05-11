@@ -24,17 +24,18 @@ type nul > src\index.js
 
 ```
 src/
-├── auth/
-├── config/
-├── constants/
-├── controller/
-├── middleware/
-├── services/
-├── models/
-├── routes/
-├── utils/
-├── app.js
-└── index.js
+├── auth/         → Authentication strategies and logic
+├── config/       → Configuration files (e.g., DB, env, server)
+├── constants/    → Reusable constants (e.g., messages, status codes)
+├── controller/   → Route controllers (business logic entry point)
+├── middleware/   → Express middlewares (e.g., error handling, auth)
+├── services/     → Service layer (logic shared across controllers)
+├── models/       → Database models/schemas (e.g., Mongoose/Sequelize)
+├── routes/       → API route definitions
+├── utils/        → Utility functions and helpers
+├── app.js        → Express app configuration
+└── index.js      → Entry point to start the server
+
 ```
 
 > You can now begin building your application within this organized structure.
