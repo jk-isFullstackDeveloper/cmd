@@ -7,17 +7,17 @@ This project uses a structured folder layout inside the `src` directory for bett
 Run the following commands in Command Prompt to create the necessary folders and starter files:
 
 ```cmd
-mkdir src\auth
-mkdir src\config
-mkdir src\constants
-mkdir src\controller
-mkdir src\middleware
-mkdir src\services
-mkdir src\models
-mkdir src\routes
-mkdir src\utils
-type nul > src\app.js
-type nul > src\index.js
+mkdir api\src\auth
+mkdir api\src\config
+mkdir api\src\constants
+mkdir api\src\controller
+mkdir api\src\middleware
+mkdir api\src\services
+mkdir api\src\models
+mkdir api\src\routes
+mkdir api\src\utils
+type nul > api\src\app.js
+type nul > api\src\index.js
 ```
 
 ## 📂 Directory Structure
